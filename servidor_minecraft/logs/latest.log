@@ -52,3 +52,26 @@
 [19:42:08] [Server thread/INFO]: Ksito325 has made the advancement [Monster Hunter]
 [19:44:03] [Server thread/INFO]: Ksito325 has made the advancement [Isn't It Iron Pick]
 [19:50:23] [Server thread/INFO]: Ksito325 has made the advancement [Suit Up]
+[20:03:03] [Server thread/INFO]: Ksito325 lost connection: Timed out
+[20:03:03] [Server thread/INFO]: Ksito325 left the game
+[20:03:03] [Server thread/WARN]: handleDisconnection() called twice
+[20:04:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[20:04:02] [Server thread/INFO]: stop<--[HERE]
+[20:04:03] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[20:04:53] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at aqy$1.run(SourceFile:102) [server-1.21.3.jar:?]
